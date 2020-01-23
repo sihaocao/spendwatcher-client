@@ -6,17 +6,17 @@ import './index.css';
 import App from './Components/App/App';
 
 import {
-    faSearchDollar,
+    // faSearchDollar,
     faEdit,
     faTrashAlt,
-
+    faMoneyBillWave
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add (
-    faSearchDollar, // logo
+    // faSearchDollar, 
     faEdit,
     faTrashAlt,
-
+    faMoneyBillWave // logo
 )
 
 ReactDOM.render(
