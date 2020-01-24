@@ -133,6 +133,8 @@ export default class ExpenseList extends Component {
                         ))}
                     </ul>
                 </section>
+
+                <p className='ExpenseList__Copyright'>Copyright &copy; 2020 - <a href='https://sihaocao.github.io' target='_blank' rel='noopener noreferrer'>Sihao Cao</a></p>
             </div>
         );
     }

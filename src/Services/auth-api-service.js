@@ -1,6 +1,6 @@
 const AuthApiService = {
     postLogin({ user_name, password }) {
-        return fetch(`http://localhost:8000/api/auth/login`, {
+        return fetch(`https://guarded-eyrie-36972.herokuapp.com/api/auth/login`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
@@ -15,7 +15,7 @@ const AuthApiService = {
     },
 
     postUser(user) {
-        return fetch(`http://localhost:8000/api/users`, {
+        return fetch(`https://guarded-eyrie-36972.herokuapp.com/api/users`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
