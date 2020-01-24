@@ -1,0 +1,87 @@
+.sidebar {
+    background: linear-gradient(to right, #0cebeb 0%, #20e3b2 51%, #0cebeb 100%);
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+
+.sidebar a {
+    text-decoration: underline;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.active {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+    color: black;
+}
+
+@media only screen and (min-width: 468px) {
+    li a {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 618px) {
+    li a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        border: 1px solid #C2C5C8;
+        border-radius: 5px;
+        width: 120px;
+        height: 180px;
+        margin-top: 5%;
+        display: block;
+        padding: 0;
+        font-size: 0.8rem;
+    }
+    li a {
+        font-size: 0.8rem;
+    }
+    li {
+        margin: 30px 15px;
+    }
+}
+
+@media only screen and (min-width: 968px) {
+    .sidebar {
+        width: 160px;
+        font-size: 0.9rem;
+    }
+    li a {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 1168px) {
+    .sidebar {
+        width: 180px;
+        font-size: 1rem;
+    }
+    li a {
+        font-size: 1rem;
+    }
+}

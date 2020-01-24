@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+}
+
+.about {
+    width: 80%;
+    margin: 0 auto;
+    animation: moveInBottom 0.5s;
+}
+
+.heading {
+    margin-top: 75px;
+}
+
+.hr {
+    background: linear-gradient(to right,rgb(81, 255, 182), rgb(59, 241, 187), rgb(28, 226, 216));
+    height: 1px;
+    border: none;
+    width: 30%;
+}
+
+.description {
+    width: 50%;
+    margin: 20px auto;
+    font-size: 1.5rem;
+}
+
+.demo-button {
+    background: linear-gradient(to right,#0cebeb 0%, #20e3b2 51%, #0cebeb 100%);
+    width: 200px;
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 10px;
+    transition: .25s;
+    font-weight: bold;
+}
+
+.demo-button:hover {
+    color: #ffffff;
+    transform: translateY(-5px) scale(1.1);
+    cursor: pointer;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    80% {
+        transform: translateY(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
