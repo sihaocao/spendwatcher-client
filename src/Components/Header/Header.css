@@ -23,6 +23,10 @@
     font-weight: bold;
 }
 
+.SignOut a:hover {
+    color: #F2F2F2;
+}
+
 @media screen and (min-width: 768px) {
     .Header a {
         font-size: 1.5rem;

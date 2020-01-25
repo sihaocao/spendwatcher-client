@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Required } from '../Utils/Utils';
 
 const noop = () => {};
 
@@ -77,7 +78,7 @@ class ExpenseForm extends Component {
                 {id && <input type='hidden' name='id' value={id} />}
 
                 <div className='AddExpenseForm__Options'>
-                    <label htmlFor='AddExpenseForm__label'>Date * </label>
+                    <label htmlFor='AddExpenseForm__label'>Date <Required className='required' /></label>
                     <input
                         name='date'
                         type='date'
@@ -89,7 +90,7 @@ class ExpenseForm extends Component {
                 </div>
 
                 <div className='AddExpenseForm__Options'>
-                    <label htmlFor='AddExpenseForm__label'>Amount * </label>
+                    <label htmlFor='AddExpenseForm__label'>Amount ($)<Required className='required' /></label>
                     <input
                         name='amount'
                         type='text'
@@ -101,7 +102,7 @@ class ExpenseForm extends Component {
                 </div>
 
                 <div className='AddExpenseForm__Options'>
-                    <label htmlFor='AddExpenseForm__label'>Category * </label>
+                    <label htmlFor='AddExpenseForm__label'>Category <Required className='required' /></label>
                     <select
                         id='style'
                         name='style'
@@ -120,13 +121,13 @@ class ExpenseForm extends Component {
                 </div>
 
                 <div className='description'>
-                    <label htmlFor='AddExpenseForm__label'>Description * </label>
+                    <label htmlFor='AddExpenseForm__label'>Description <Required className='required' /></label>
                     <textarea
                         value={description}
                         name='description'
                         id='description'
                         required
-                        placeholder='What did you spend your money on?'
+                        placeholder='What did you buy?'
                         onChange={this.handleChangeDescription}
                     />
                 </div>

@@ -12,7 +12,7 @@ const LandingPage = () => {
             <div className='about'>
                 <h1 className='heading'>SpendWatcher</h1>
                 <hr className='hr'></hr>
-                <p className='description'>Keeping track of your spending so you can be better prepared for the future.</p>
+                <p className='landingpage-description'>Keeping track of your spending so you can be better prepared for the future.</p>
                 <Link to='/expenses'>
                     <Button className='button demo-button'>DEMO</Button>
                 </Link>
