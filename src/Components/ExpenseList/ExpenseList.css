@@ -1,6 +1,8 @@
 .ExpenseList__Filters {
-    text-align: center;
     margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
 }
 
 .ExpenseList__Select {
@@ -17,9 +19,28 @@
     text-align: center;
 }
 
+.ExpenseList__Copyright {
+    margin: 5% auto;
+    text-align: center;
+    font-size: 14px;
+    color: #000036;
+    font-weight: 400;
+}
+
+.ExpenseList__Copyright a {
+    text-decoration: none;
+}
+
+.ExpenseList__Copyright a:hover {
+    color: #0000cc;
+}
+
 @media only screen and (min-width: 420px) {
     .ExpenseList__Select {
         font-size: 0.75rem;
+    }
+    .ExpenseList__Copyright {
+        font-size: 16px;
     }
 }
 
@@ -45,6 +66,8 @@
 @media only screen and (min-width: 768px) {
     .ExpenseList__Filters {
         margin-top: 0.5%;
+        display: flex;
+        margin-left: 25%;
     }
     .ExpenseList__Select {
         width: 20vw;
@@ -64,10 +87,28 @@
     }
 }
 
+@media only screen and (min-width: 1220px) {
+    .ExpenseList__Filters {
+        margin-left: 22.5%;
+    }
+}
+
 @media only screen and (min-width: 1320px) {
+    .ExpenseList__Filters {
+        width: 75%;
+    }
     .ExpenseList__Select {
         margin: 5px;
         font-size: 1rem;
+    }
+    .ExpenseList__Copyright {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1370px) {
+    .ExpenseList__Filters {
+        width: 55%;
     }
 }
 

@@ -60,12 +60,12 @@ export default class Statistics extends Component {
                 {
                     label: " Amount spent per category",
                     backgroundColor: [
-                        "#36A2EB",
-                        "#FFCE56",
-                        "#FCEF2D",
-                        "#2D5BFC",
-                        "#2DFC45",
-                        "#F826F4"                        
+                        "#343EFC",
+                        "#FB0D1D",
+                        "#981CCA",
+                        "#FD9827",
+                        "#159619",
+                        "#FDEA39"                        
                     ],
                     borderColor: "rgba(255,99,132,1)",
                     data: [],
@@ -89,12 +89,12 @@ export default class Statistics extends Component {
                 {
                     data: [],
                     backgroundColor: [
-                        "#36A2EB",
-                        "#FFCE56",
-                        "#FCEF2D",
-                        "#2D5BFC",
-                        "#2DFC45",
-                        "#F826F4"                        
+                        "#343EFC",
+                        "#FB0D1D",
+                        "#981CCA",
+                        "#FD9827",
+                        "#159619",
+                        "#FDEA39"                        
                     ]
                 }
             ],
@@ -179,7 +179,7 @@ export default class Statistics extends Component {
                             />
                         </div>
                     </div>
-                    <p className='Statistics__Copyright'>Copyright &copy; 2020 - <a href='https://sihaocao.github.io' target='_blank' rel='noopener noreferrer'>Sihao Cao</a></p>
+                    <div className='Statistics__Copyright'>Copyright &copy; 2020 - <a href='https://sihaocao.github.io' target='_blank' rel='noopener noreferrer'>Sihao Cao</a></div>
                 </div>
             )
         );

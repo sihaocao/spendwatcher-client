@@ -1,0 +1,66 @@
+.RegistrationForm {
+    width: 52.5%;
+    height: 475px;
+}
+
+.Password__Criteria {
+    display: none;
+    font-size: 12px;
+    width: 47.5%;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.Registration__Note {
+    width: 100%;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 420px) {
+    .Registration__Note {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    .Registration__Note {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 620px) {
+    .Registration__Note {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .Registration__Note {
+        width: 75%;
+    }
+    .Input2 {
+        width: 225px;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .Registration__Note {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .Form {
+        width: 525px;
+    }
+    .Password__Criteria {
+        display: block;
+    }
+    .RegistrationForm__Password__Input {
+        margin-top: 0;
+    }
+    .Registration__Note {
+        width: 55%;
+    }
+}

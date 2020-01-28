@@ -31,7 +31,7 @@ const LandingPage = () => {
                 />
             </div> */}
 
-            <p className='LandingPage__Copyright'>Copyright &copy; 2020 - <a href='https://sihaocao.github.io' target='_blank' rel='noopener noreferrer'>Sihao Cao</a></p>
+            <div className='LandingPage__Copyright'>Copyright &copy; 2020 - <a href='https://sihaocao.github.io' target='_blank' rel='noopener noreferrer'>Sihao Cao</a></div>
 
         </div>
     )

@@ -78,7 +78,7 @@ li {
 
 @media only screen and (min-width: 1168px) {
     .sidebar {
-        width: 180px;
+        width: 200px;
         font-size: 1rem;
     }
     li a {

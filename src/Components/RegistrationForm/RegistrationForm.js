@@ -70,7 +70,9 @@ export default class RegistrationForm extends Component {
                     <label htmlFor='RegistrationForm__password'>
                         Password <Required />
                     </label>
+                    <p className='Password__Criteria'>(8 or more characters containing at least ONE of the following: upper-case letter, lower-case letter, number, special character)</p>
                     <Input2
+                        className='RegistrationForm__Password__Input'
                         name='password'
                         type='password'
                         required
@@ -79,6 +81,7 @@ export default class RegistrationForm extends Component {
                     ></Input2>
                 </div>
                 <Button2 type='submit'>Register</Button2>
+                <p className='Registration__Note'>Note: You will be redirected to the Log in page upon successful registration.</p>
             </Form>
         );
     }

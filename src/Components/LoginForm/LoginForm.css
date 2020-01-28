@@ -1,0 +1,11 @@
+label {
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+}
+
+.red {
+    color: rgb(221, 19, 19);
+    font-weight: bold;
+    font-size: 22px;
+}

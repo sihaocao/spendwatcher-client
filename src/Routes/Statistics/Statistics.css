@@ -1,0 +1,181 @@
+.statistic p {
+    margin-top: 10%;
+    font-size: 24px;
+}
+
+.stats {
+    text-align: center;
+}
+
+.stats1 {
+    animation: moveInLeft .5 ease-out .5s;
+}
+
+.stats2 {
+    animation: moveInLeft .5 ease-out .75s;
+}
+
+.stats3 {
+    animation: moveInLeft .5 ease-out 1s;
+}
+
+.stats__title {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.charts {
+    width: 95vw;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.doughnutChart {
+    text-align: center;
+}
+
+.Statistics__Copyright {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 14px;
+    color: #000036;
+    font-weight: 400;
+}
+
+.Statistics__Copyright a {
+    text-decoration: none;
+}
+
+.Statistics__Copyright a:hover {
+    color: #0000cc;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    80% {
+        transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@media screen and (min-width: 418px) {
+    .Statistics__Copyright {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 468px) {
+    .Statistics__Copyright {
+        margin-top: 15%;
+    }
+}
+
+@media screen and (min-width: 568px) {
+    .Statistics__Copyright {
+        margin-top: 20%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 668px) {
+    .Statistics__Copyright {
+        margin-top: 25%; 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .statistic {
+        margin-left: 15vw;
+    }
+    .statistic p {
+        margin-left: 10%;
+        margin-top: 10%;
+        display: inline-block;
+        font-size: 24px;
+    }
+    .charts__container {
+        width: 100vw;
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+    .barChart {
+        width: 500px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    .doughnutChart {
+        width: 600px;
+        margin-top: 75px;
+    }
+    .Statistics__Copyright {
+        margin-top: 25%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 868px) {
+    .Statistics__Copyright {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (min-width: 1168px) {
+    .statistic p {
+        margin-left: 17.5%;
+    }
+    .charts__container {
+        display: flex;
+        margin-top: 50px;
+        margin-left: 5%;
+    }
+    .barChart {
+        width: 400px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    .doughnutChart {
+        width: 600px;
+        margin-top: 50px;
+    }
+    .Statistics__Copyright {
+        font-size: 20px;
+        margin: 5% auto;
+    }
+}
+
+@media screen and (min-width: 1268px) {
+    .doughnutChart {
+        width: 650px;
+    }
+}
+
+@media screen and (min-width: 1368px) {
+    .barChart {
+        width: 450px;
+    }
+    .doughnutChart {
+        width: 700px;
+    }
+}
+
+@media screen and (min-width: 1468px) {
+    .barChart {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1568px) {
+    .barChart {
+        width: 600px;
+    }
+}
