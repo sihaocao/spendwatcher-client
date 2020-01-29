@@ -9,7 +9,7 @@
 }
 
 .heading {
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .hr {
@@ -20,9 +20,10 @@
 }
 
 .landingpage-description {
-    width: 50%;
+    width: 100%;
     margin: 20px auto;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    line-height: 22px;
 }
 
 .demo-button {
@@ -41,6 +42,27 @@
     cursor: pointer;
 }
 
+.screenshots {
+    display: none;
+}
+
+.LandingPage__Copyright {
+    margin: 15% auto;
+    text-align: center;
+    font-size: 1rem;
+    color: #000036;
+    font-weight: 400;
+    animation: moveInBottom 1s;
+}
+
+.LandingPage__Copyright a {
+    text-decoration: none;
+}
+
+.LandingPage__Copyright a:hover {
+    color: #0000cc;
+}
+
 @keyframes moveInBottom {
     0% {
         opacity: 0;
@@ -52,5 +74,164 @@
     100% {
         opacity: 1;
         transform: translate(0);
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .landingpage-description {
+        width: 90%;
+        font-size: 1.1rem;
+        line-height: 24px;
+    }
+    .LandingPage__Copyright {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    .landingpage-description {
+        width: 85%;
+        font-size: 1.2rem;
+        line-height: 26px;
+    }
+    .LandingPage__Copyright {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 620px) {
+    .landingpage-description {
+        width: 80%;
+        font-size: 1.3rem;
+        line-height: 28px;
+    }
+    .LandingPage__Copyright {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .landingpage-description {
+        width: 75%;
+        font-size: 1.4rem;
+        line-height: 30px;
+    }
+    .LandingPage__Copyright {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .landingpage-description {
+        width: 70%;
+        font-size: 1.5rem;
+        line-height: 32px;
+    }
+    .LandingPage__Copyright {
+        font-size: 1.5rem;
+    }
+    .screenshots {
+        display: block;
+        width: 80%;
+        margin: 50px auto;
+        position: relative;
+        animation: moveInBottom 0.75s;
+    }
+    
+    .desktop-screenshot {
+        width: 80%;
+        height: 300px;
+        border: 1px solid #F1F1F1;
+        border-radius: 5px;
+    }
+    
+    .mobile-screenshot {
+        width: 20%;
+        height: 250px;
+        position: absolute;
+        right: 50px;
+        top: 85px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .desktop-screenshot {
+        width: 75%;
+    }
+    .mobile-screenshot {
+        right: 60px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .hr {
+        width: 35%;
+    }
+    .desktop-screenshot {
+        width: 70%;
+        -webkit-box-shadow: 6px 6px 30px 2px rgba(209,205,209,1);
+        -moz-box-shadow: 6px 6px 30px 2px rgba(209,205,209,1);
+        box-shadow: 6px 6px 30px 2px rgba(209,205,209,1);
+    }
+    .mobile-screenshot {
+        width: 15%;
+        height: 225px;
+        right: 75px;
+        top: 115px;
+    }
+    .LandingPage__Copyright {
+        margin: 10% auto;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    .desktop-screenshot {
+        width: 65%;
+        height: 325px;
+    }
+    .mobile-screenshot {
+        width: 12.5%;
+        right: 125px;
+        top: 140px;
+    }
+}
+
+@media only screen and (min-width: 1320px) {
+    .desktop-screenshot {
+        width: 60%;
+        height: 350px;
+    }
+    .mobile-screenshot {
+        width: 10%;
+        right: 175px;
+        top: 165px;
+    }
+    .LandingPage__Copyright {
+        margin: 5% auto;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .screenshots {
+        width: 90%;
+    }
+    .desktop-screenshot {
+        width: 55%;
+    }
+    .mobile-screenshot {
+        right: 250px;
+    }
+    .LandingPage__Copyright {
+        margin: 2.5% auto;
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+    .desktop-screenshot {
+        width: 50%;
+    }
+    .mobile-screenshot {
+        width: 8%;
+        right: 310px;
     }
 }
