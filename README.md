@@ -15,9 +15,38 @@
 ## Screenshots
 * Landing Page:
 
+<img src='./src/Images/Landing_Page.JPG'>
+
+* Registration Page:
+
+<img src='./src/Images/Registration.JPG'>
+
+* Log In Page:
+
+<img src='./src/Images/Login.JPG'>
+
+* All Expenses Page (Main Page):
+
+<img src='./src/Images/All_Expenses.JPG'>
+
+* Expenses Breakdown Page:
+
+<img src='./src/Images/Expenses_Breakdown.JPG'>
+
+* Add Expense Page:
+
+<img src='./src/Images/Add_Expense.JPG'>
+
+* Edit Expense Page:
+
+<img src='./src/Images/Edit_Expense.JPG'>
+
+* Delete Expense Page:
+
+<img src='./src/Images/Expense_Delete.JPG'>
 
 ## How to Use the App
-* Something
+* Some Description
 
 ## Built With
 * Reactjs
