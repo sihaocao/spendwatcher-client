@@ -105,9 +105,6 @@
         font-size: 1.3rem;
         line-height: 28px;
     }
-    .LandingPage__Copyright {
-        font-size: 1.3rem;
-    }
 }
 
 @media only screen and (min-width: 720px) {
@@ -116,9 +113,6 @@
         font-size: 1.4rem;
         line-height: 30px;
     }
-    .LandingPage__Copyright {
-        font-size: 1.4rem;
-    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -126,9 +120,6 @@
         width: 70%;
         font-size: 1.5rem;
         line-height: 32px;
-    }
-    .LandingPage__Copyright {
-        font-size: 1.5rem;
     }
     .screenshots {
         display: block;
@@ -159,7 +150,8 @@
         width: 75%;
     }
     .mobile-screenshot {
-        right: 60px;
+        width: 17.5%;
+        right: 55px;
     }
 }
 
@@ -213,13 +205,14 @@
 
 @media only screen and (min-width: 1440px) {
     .screenshots {
-        width: 90%;
+        width: 85%;
     }
     .desktop-screenshot {
         width: 55%;
     }
     .mobile-screenshot {
-        right: 250px;
+        width: 9%;
+        right: 235px;
     }
     .LandingPage__Copyright {
         margin: 2.5% auto;
@@ -227,6 +220,9 @@
 }
 
 @media only screen and (min-width: 1550px) {
+    .screenshots {
+        width: 90%;
+    }
     .desktop-screenshot {
         width: 50%;
     }
