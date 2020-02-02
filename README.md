@@ -6,6 +6,9 @@
 ## Demo
 * [Live Page](https://spendwatcher-client.now.sh/)
 
+## Server-side Code
+* [SpendWatcher Server](https://github.com/sihaocao/spendwatcher-server)
+
 ## App Motivation
 * As I've gotten older and become more independent, many expenses are starting to creep up including rent, groceries, meals out, and other expenses that I previously did not have to be concerned about. After a while, it is hard to gauge just how much I've spent on various things. SpendWatcher is an expense tracking app that helps users monitor their expenses. Users can log the date of the expenditure, the amount spent, expense category that the sum belongs to, and a description. The user has the ability to filter by each category and get a general summary of their various expenditures. My hope is that, with this app, I will get a better handle on my spending habits and make more informed financial decisions knowing my own trends.
 
